@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <!-- font awesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <!-- --------- Spldiejs -----------  -->
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+  <!-- --------- add animation -----------  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>CoffeeShop</title>
+</head>
+
+<body>
+  <!-- ------- navbar --------  -->
+  <nav class="nav-bg" id="navbar">
+    <ul class="nav-bg__nav-wrapper">
+      <li class="nav-list"><a class="text" href="#">Home</a></li>
+      <li class="nav-list"><a class="text" href="#design">Designs</a></li>
+      <li class="nav-list"><a class="text" href="#review">Review</a></li>
+      <li class="nav-list"><a class="text" href="#menu">Menu</a></li>
+      <li class="nav-list"><a class="text" href="#contact">Contact</a></li>
+    </ul>
+    <div class="side-bar">
+      <div class="nav-bg__hamburger">
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox" class="toggle">
+          <div class="bars" id="bar1"></div>
+          <div class="bars" id="bar2"></div>
+          <div class="bars" id="bar3"></div>
+        </label>
+      </div>
+      <div class="nav-items">
+        <ul class="nav-list">
+          <li class="nav-text">
+            <a class="text" href="#about">About</a>
+          </li>
+          <li class="nav-text">
+            <a class="text" href="#design">Design</a>
+          </li>
+          <li class="nav-text">
+            <a class="text" href="#menu">Menu</a>
+          </li>
+          <li class="nav-text">
+            <a class="text" href="#review">Reivew</a>
+          </li>
+          <li class="nav-text">
+            <a class="text" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ------- navbar --------  -->
+
+  <!-- ------- bg content --------  -->
+
+  <main class="main">
+    <section class="main__home">
+      <div class="main__home-content">
+        <div class="main__home-list">
+          <h1 class="main-title">
+            Welcome to YOshi Coffee Shop
+            A Taste of Coffee in the morning
+          </h1>
+          <div class="home-btn">
+            <h2>
+              <a class="main-button" href="">About Us</a>
+            </h2>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <!-- ------- bg content --------  -->
+  <!-- ------- About us --------  -->
+  <div class="about" id="about">
+    <div class="about__about-wrapper">
+      <div class="about__about-container">
+        <ul class="about-list" data-aos="fade-up" data-aos-duration="1500">
+          <li class="about-img about-img--active"><img class="img" src="./style/img/image (2).png" alt="">
+          </li>
+          <li class="about-img"><img class="img" src="./style/img/image.png" alt=""></li>
+          <li class="about-img"><img class="img" src="./style/img/image (1).png" alt=""></li>
+          <li class="about-img about-img--active"><img class="img" src="./style/img/image (3).png" alt="">
+          </li>
+        </ul>
+        <div class="about-desc" data-aos="fade-up" data-aos-duration="3000">
+          <h1 class="title">LATTE ART</h1>
+          <p class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dignissimos
+            eveniet esse
+            iste
+            dolores rerum consectetur facere, quibusdam voluptatem dolorem nostrum placeat omnis saepe
+            laudantium officiis nihil pariatur expedita quas?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------- about us --------  -->
+
+
+  <!-- ------- design --------  -->
+  <div class="design" id="design">
+    <div class="design__design-wrapper">
+      <div class="design__design-container">
+        <div class="design-desc" data-aos="fade-right" data-aos-duration="2900">
+          <h1 class="design-title">LATTE ART WE DESIGN</h1>
+          <p class="description">the technique a we uses to
+            produce figures and shapes on
+            the surface of the foam of
+            espresso-based lattes and
+            cappuccinos.</p>
+        </div>
+        <div class="design-main-img">
+          <div class="design-img-wrapper">
+            <ul class="design-container">
+              <li class="card">
+                <div class="card-container" data-aos="fade-right" data-aos-duration="2900">
+                  <img class="image" src="./style/img/TULIP.png" alt="">
+                  <h1 class="card-title">TULIP LATTE ART</h1>
+                </div>
+              </li>
+              <li class="card" data-aos="fade-right" data-aos-duration="2900">
+                <div class="card-container">
+                  <img class="image" src="./style/img/SWAN.png" alt="">
+                  <h1 class="card-title">TULIP LATTE ART</h1>
+                </div>
+              </li>
+              <li class="card" data-aos="fade-right" data-aos-duration="2900">
+                <div class="card-container">
+                  <img class="image" src="./style/img/ROSETTA.png" alt="">
+                  <h1 class="card-title">ROSETTA LATTE ART</h1>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------- design --------  -->
+
+  <!-- ------- ice coffee --------  -->
+
+  <div class="coffee">
+    <div class="coffee__coffee-wrapper">
+      <ul class="coffee__coffee-container">
+        <li class="coffee-list">
+          <h1 data-aos="fade-down" data-aos-duration="2900" class="coffee-title">WE ALSO HAVE ICE COFFEE</h1>
+          <img data-aos="fade-right" data-aos-duration="2900" class="coffee-img coffee-img--image2"
+            src="./style/img/ice-coffee1.png" alt="">
+        </li>
+        <li class="coffee-list">
+          <img data-aos="fade-down" data-aos-duration="2900" class="coffee-img coffee-img--image1"
+            src="./style/img/ice-coffee2.png" alt="">
+          <img data-aos="fade-up" data-aos-duration="2900" class="coffee-img coffee-img--image2"
+            src="./style/img/ice-coffee3.png" alt="">
+        </li>
+        <li class="coffee-list">
+          <img data-aos="fade-up" data-aos-duration="2900" class="coffee-img" src="./style/img/ice-coffee4.png" alt="">
+        </li>
+        <li class="coffee-list">
+          <img data-aos="fade-left" data-aos-duration="2900" class="coffee-img" src="./style/img/ice-coffee5.png"
+            alt="">
+          <p data-aos="fade-right" data-aos-duration="2900" class="description">Donec consectetur ex nulla,
+            non feugiat risus
+            volutpat quis. Donec ultrices eu ante sit amet
+            finibus. Pellentesque mollis tincidunt orci ac rhoncus. Vivamus ut nunc non quam aliquam feugiat
+            iaculis porta massa.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ------- ice coffee  --------  -->
+
+  <!-- -------  menu  --------  -->
+
+  <div class="menu" id="menu">
+    <div class="menu__menu-wrapper">
+      <h1 class="menu__title">COFFEE MENU</h1>
+      <div class="menu__menu-container">
+        <div class="coffee-content">
+          <h1 class="title">HOT COFFEE</h1>
+          <div class="coffee-list">
+            <div class="coffee-image">
+              <div class="img-container">
+                <div class="img" data-aos="fade-up" data-aos-duration="2900">
+                  <img src="./style/img/espresso.png" alt="">
+                </div>
+                <h2 data-aos="fade-up" data-aos-duration="2900">ESPRESSO</h2>
+              </div>
+              <div class="img-container">
+                <div class="img" data-aos="fade-up" data-aos-duration="2900">
+                  <img src="./style/img/americano.png" alt="">
+                </div>
+                <h2 data-aos="fade-up" data-aos-duration="2900">AMERICANO</h2>
+              </div>
+            </div>
+            <div class="coffee-image coffee-image--active">
+              <div class="img-container">
+                <div class="img" data-aos="fade-up" data-aos-duration="2900">
+                  <img src="./style/img/lungo.png" alt="">
+                </div>
+                <h2 data-aos="fade-up" data-aos-duration="2900">LUNGO</h2>
+              </div>
+              <div class="img-container">
+                <div class="img" data-aos="fade-up" data-aos-duration="2900">
+                  <img src="./style/img/capuccino.png" alt="">
+                </div>
+                <h2 data-aos="fade-up" data-aos-duration="2900">CAPUCCINO</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stick">
+
+        </div>
+        <div class="coffee-content">
+          <h1 class="title">ICE COFFEE</h1>
+          <div class="coffee-list">
+            <div class="coffee-image coffee-image--active">
+              <div class="img-container">
+                <div class="img" data-aos="fade-up" data-aos-duration="2900">
+                  <img src="./style/img/icecapuccino.png" alt="">
+                </div>
+                <h2 data-aos="fade-up" data-aos-duration="2900">ICE CAPUCCINO</h2>
+              </div>
+              <div class="img-container">
+                <div class="img" data-aos="fade-up" data-aos-duration="2900">
+                  <img src="./style/img/icemachiato.png" alt="">
+                </div>
+                <h2 data-aos="fade-up" data-aos-duration="2900">ICE MACCHIATO</h2>
+              </div>
+            </div>
+            <div class="coffee-image">
+              <div class="img-container">
+                <div class="img" data-aos="fade-up" data-aos-duration="2900">
+                  <img src="./style/img/icecoffee.png" alt="">
+                </div>
+                <h2 data-aos="fade-up" data-aos-duration="2900">CREAMY ICE COFFEE</h2>
+              </div>
+              <div class="img-container">
+                <div class="img" data-aos="fade-up" data-aos-duration="2900">
+                  <img src="./style/img/bananacoffee.png" alt="">
+                </div>
+                <h2 data-aos="fade-up" data-aos-duration="2900">BANANA ICE COFFEE</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------- menu  --------  -->
+
+  <!-- ------- reviews   --------  -->
+
+  <div class="reviews" id="review">
+    <div class="reviews__reviews-wrapper">
+      <h1 class="reviews-title">REVIEWS OF CUSTOMER</h1>
+      <div class="reviews__container splide" aria-label="Coffe Image">
+        <div class="button my-autoplay-controls">
+          <button class="my-toggle-button" type="button"></button>
+        </div>
+        <div class="reviews__container1 splide__track">
+          <ul class="card-container splide__list">
+            <li class="card-list splide__slide">
+              <div class="card">
+                <i class="card-q fa-solid fa-quote-right"></i>
+                <p class="card-desc">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. A repellendus eius, nulla
+                  impedit dolorem est delectus dolore odio nesciunt harum totam, dolor sequi dicta ut
+                  modi
+                  repudiandae adipisci aperiam. Incidunt?
+                </p>
+                <h4 class="card-name">- Zyrus Gremio</h4>
+              </div>
+            </li>
+            <li class="card-list splide__slide">
+              <div class="card">
+                <i class="card-q fa-solid fa-quote-right"></i>
+                <p class="card-desc">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. A repellendus eius, nulla
+                  impedit dolorem est delectus dolore odio nesciunt harum totam, dolor sequi dicta ut
+                  modi
+                  repudiandae adipisci aperiam. Incidunt?
+                </p>
+                <h4 class="card-name">- John Silly Canoza</h4>
+              </div>
+            </li>
+            <li class="card-list splide__slide">
+              <div class="card">
+                <i class="card-q fa-solid fa-quote-right"></i>
+                <p class="card-desc">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. A repellendus eius, nulla
+                  impedit dolorem est delectus dolore odio nesciunt harum totam, dolor sequi dicta ut
+                  modi
+                  repudiandae adipisci aperiam. Incidunt?
+                </p>
+                <h4 class="card-name">- Kenken Quiboloy Carreon</h4>
+              </div>
+            </li>
+            <li class="card-list splide__slide">
+              <div class="card">
+                <i class="card-q fa-solid fa-quote-right"></i>
+                <p class="card-desc">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. A repellendus eius, nulla
+                  impedit dolorem est delectus dolore odio nesciunt harum totam, dolor sequi dicta ut
+                  modi
+                  repudiandae adipisci aperiam. Incidunt?
+                </p>
+                <h4 class="card-name">- Klay Conrad Barbie</h4>
+              </div>
+            </li>
+            <li class="card-list splide__slide">
+              <div class="card">
+                <i class="card-q fa-solid fa-quote-right"></i>
+                <p class="card-desc">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. A repellendus eius, nulla
+                  impedit dolorem est delectus dolore odio nesciunt harum totam, dolor sequi dicta ut
+                  modi
+                  repudiandae adipisci aperiam. Incidunt?
+                </p>
+                <h4 class="card-name">- Kristan Valdez</h4>
+              </div>
+            </li>
+            <li class="card-list splide__slide">
+              <div class="card">
+                <i class="card-q fa-solid fa-quote-right"></i>
+                <p class="card-desc">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. A repellendus eius, nulla
+                  impedit dolorem est delectus dolore odio nesciunt harum totam, dolor sequi dicta ut
+                  modi
+                  repudiandae adipisci aperiam. Incidunt?
+                </p>
+                <h4 class="card-name">- Monc Magnetico</h4>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------- reviews  --------  -->
+
+  <!-- ------- contact form  --------  -->
+
+  <div class="contact" id="contact">
+    <div class="contact__contact-wrapper">
+      <div class="contact__contact-container">
+        <div class="contact-img">
+          <img class="contact-coffee" src="./style/img/coffeebackground.png" alt="">
+        </div>
+        <div class="contact-info">
+          <h1 class="info-title">Thank You!</h1>
+          <ul class="info-container">
+            <li class="info">
+              <h2 data-aos="fade-up" data-aos-duration="2900" class="info-text">PHONE NUMBER</h2>
+              <P data-aos="fade-up" data-aos-duration="2900" class="info-text1">09154193574</P>
+            </li>
+            <li class="info">
+              <h2 data-aos="fade-up" data-aos-duration="2900" class="info-text">EMAIL ADDRESS</h2>
+              <p data-aos="fade-up" data-aos-duration="2900" class="info-text1">joshuaanicas7@gmail.com
+              </p>
+            </li>
+            <li class="info">
+              <h2 data-aos="fade-up" data-aos-duration="2900" class="info-text">LOCATION</h2>
+              <p data-aos="fade-up" data-aos-duration="2900" class="info-text1">Blk 25 Singkamas st.
+                Tumana, Marikina City</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------- contact form  --------  -->
+
+  <!-- ------- footer --------  -->
+
+  <footer>
+    <div class="footer">
+      <div class="footer__footer-wrapper">
+        <div class="footer__footer-container">
+          <div class="footer-image">
+            <img class="img" src="./style/img/coffee-logo.png" alt="">
+          </div>
+          <div class="footer-desc">
+            <p>The most Instagrammable Coffee Shop in the Philippines.
+              Serving good quality concoctions of espresso-based
+              drinks and mouth-watering food.
+              <br><br>
+              Coffee Project is not just an ordinary café; besides our
+              best-tasting coffee and beverages, we also serve a wide
+              variety of appetizing food like cakes, pasta, rice meals, and
+              sandwiches.
+            </p>
+          </div>
+          <div class="footer-quicklink">
+            <div class="quicklink-list">
+              <h4 class="title">ABOUT US</h4>
+              <h4 class="title">PRIVACY POLICY</h4>
+            </div>
+            <div class="quicklink-list">
+              <h4 class="title">CONTACT US</h4>
+              <h4 class="title">STORE LOCATOR</h4>
+              <h4 class="title">FAQS</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        Copyright © 2024 Coffee Project
+        Powered by Coffee Project Marketplace
+      </div>
+    </div>
+  </footer>
+
+  <!-- ------- footer --------  -->
+  <script>
+    const checkbox = document.querySelector("#checkbox");
+    const nav = document.querySelector(".nav-items");
+    checkbox.addEventListener("change", () => {
+      console.log(checkbox.checked);
+      if (checkbox.checked) {
+        nav.style.left = "0";
+      } else {
+        nav.style.left = "-100%";
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var splide = new Splide('.splide', {
+        autoplay: true,
+        arrows: false,
+        type: 'loop',
+        perPage: 2,
+        breakpoints: {
+          400: {
+            perPage: 1,
+          },
+
+        },
+
+      });
+      var toggleButton = splide.root.querySelector('.my-toggle-button');
+      splide.mount();
+    });
+
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-120px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
+  <!-- ------- Splidejs --------  -->
+  <script src="./function/splide.min.js"></script>
+
+  <!-- ------- AOS Animation --------  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
