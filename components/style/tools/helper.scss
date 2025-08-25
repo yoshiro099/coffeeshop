@@ -1,0 +1,35 @@
+// Random stuff
+@use '../settings/color' as clr;
+
+.clr-primary {
+	color: clr.$primary-color;
+}
+
+.clr-secondary {
+	color: clr.$secondary-color;
+}
+
+.clr-tertiary {
+	color: clr.$tertiary-color;
+}
+
+.height-100 {
+	height: 100%;
+}
+
+.img-title {
+	font-size: 19px;
+
+	&--margin-block {
+		margin-bottom: 50px;
+	}
+}
+
+.font-25 {
+	font-size: 20px;
+}
+
+.description {
+	font-size: 20px;
+	text-align: justify;
+}

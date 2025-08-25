@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="components/style/main.css">
+	<!-- --------- add animation -----------  -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!-- Splide JS  -->
+	<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+	<title>Coffeshop v2</title>
+</head>
+
+<body class="overflow">
+	<header class="header">
+		<nav class="header__navbar" id="navbar">
+			<div class="header__nav-bar">
+				<div class="header__logo">
+					<img class="image" src="./components/img/icon/coffee-logo.svg" alt="">
+				</div>
+				<ul class="header__container">
+					<li><a class="header__link clr-primary" href="#mv">HOME</a></li>
+					<li><a class="header__link clr-primary" href="#design">DESIGN</a></li>
+					<li><a class="header__link clr-primary" href="#menu">MENU</a></li>
+					<li><a class="header__link clr-primary" href="#reviews">REVIEWS</a></li>
+					<li><a class="header__link clr-primary" href="#contact">CONTACT</a></li>
+				</ul>
+			</div>
+			<div class="header__side-bar">
+				<div class="header__nav-hamburger">
+					<input type="checkbox" id="checkbox">
+					<label for="checkbox" class="header__toggle">
+						<div class="header__bars" id="bar1"></div>
+						<div class="header__bars" id="bar2"></div>
+						<div class="header__bars" id="bar3"></div>
+					</label>
+				</div>
+				<div class="header__nav-items" id="nav-items">
+					<ul class="header__nav-list">
+						<li class="header__nav-text">
+							<a class="clr-secondary" href="#mv">HOME</a>
+						</li>
+						<li class="header__nav-text">
+							<a class="clr-secondary" href="#design">DESIGN</a>
+						</li>
+						<li class="header__nav-text">
+							<a class="clr-secondary" href="#menu">MENU</a>
+						</li>
+						<li class="header__nav-text">
+							<a class="clr-secondary" href="#reviews">REVIEWS</a>
+						</li>
+						<li class="header__nav-text">
+							<a class="clr-secondary" href="#contact">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main class="top">
+		<section class="top__mv" id="mv">
+			<div class="wrapper wrapper--100">
+				<div class="container">
+					<div class="top__mv-desc">
+						<h1 class="title clr-secondary" data-aos="fade-down" data-aos-duration="2800">Welcome
+							to Yoshi Coffee Shop
+						</h1>
+						<p class="top__mv-text text clr-secondary" data-aos="fade-down" data-aos-duration="1700">where every morning
+							begins with
+							the rich aroma
+							and comforting taste of expertly crafted coffee, served with warmth, passion, and a smile.
+						</p>
+						<a class="top__mv-link-btn" href="#about">ABOUT US</a>
+					</div>
+				</div>
+			</div>
+			<div class="top__mv-bg">
+				<img class="image" src="./components/img/mv-img/coffee.jpg" alt="">
+			</div>
+		</section>
+
+		<section class="top__about" id="about">
+			<div class="wrapper">
+				<div class="container top__about-container">
+					<ul class="top__about-img-container">
+						<li class="top__about-img-list">
+							<img class="image" src="./components/img/latte-art-img/about-img1.png" alt="About-us-image">
+						</li>
+						<li class="top__about-img-list">
+							<img class="image" src="./components/img/latte-art-img/about-img3.png" alt="About-us-image">
+						</li>
+						<li class="top__about-img-list">
+							<img class="image" src="./components/img/latte-art-img/about-img2.png" alt="About-us-image">
+						</li>
+						<li class="top__about-img-list">
+							<img class="image" src="./components/img/latte-art-img/about-img4.png" alt="About-us-image">
+						</li>
+					</ul>
+					<div class="top__about-content">
+						<h2 class="top__about-title title title--margin-bottom clr-tertiary">LATTER ART</h2>
+						<p class="description clr-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati
+							dignissimos
+							eveniet esse iste dolores
+							rerum consectetur facere, quibusdam voluptatem dolorem nostrum placeat omnis saepe laudantium officiis
+							nihil
+							pariatur expedita quas?</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="top__latte-art" id="design">
+			<div class="wrapper wrapper--100">
+				<div class="container top__latte-art-container">
+					<div class="top__latte-art-container1">
+						<h2 class="title clr-tertiary">
+							LATTE ART WE DESIGN
+						</h2>
+						<p class="description clr-primary">the technique a we uses to produce figures and shapes on the surface of
+							the
+							foam
+							of
+							espresso-based lattes
+							and cappuccinos.</p>
+					</div>
+					<div class="top__latte-art-cntnr-list">
+						<div class="top__latte-art-content">
+							<div class="top__image-list top__image-list--image1">
+								<img class="image" src="./components/img/latte-art-img/design-tulip.png" alt="latte-art-image">
+							</div>
+							<h3 class="img-title clr-tertiary">TULIP LATTE ART</h3>
+						</div>
+						<div class="top__latte-art-content">
+							<div class="top__image-list top__image-list--image2">
+								<img class="image" src="./components/img/latte-art-img/design-swan.png" alt="latte-art-image">
+							</div>
+							<h3 class="img-title clr-tertiary">SWAN LATTE ART</h3>
+						</div>
+						<div class="top__latte-art-content">
+							<div class="top__image-list">
+								<img class="image" src="./components/img/latte-art-img/design-rosetta.png" alt="latte-art-image">
+							</div>
+							<h3 class="img-title clr-tertiary">ROSETTA LATTE ART</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="top__ice-coffee">
+			<div class="wrapper">
+				<div class="container ">
+					<div class="top__ice-coffee-content">
+						<h3 class="title title--center clr-tertiary">WE ALSO HAVE ICE COFFEE</h3>
+						<p class="description description-center clr-primary">Donec consectetur ex nulla, non feugiat risus volutpat
+							quis.
+							Donec ultrices
+							eu
+							ante sit
+							amet finibus.
+							Pellentesque mollis tincidunt orci ac rhoncus. Vivamus ut nunc non quam aliquam feugiat iaculis porta
+							massa.
+						</p>
+					</div>
+					<div class="top__ice-coffee-container">
+						<div class="top__list-container">
+							<div class="top__ice-coffee-list top__ice-coffee-list--image1">
+								<img class="image" src="./components/img/ice-coffee-img/ice-coffee1.png" alt="ice-coffee-image">
+							</div>
+						</div>
+						<div class="top__list-container">
+							<div class="top__ice-coffee-list top__ice-coffee-list--image2">
+								<img class="image" src="./components/img/ice-coffee-img/ice-coffee2.png" alt="ice-coffee-image">
+							</div>
+							<div class="top__ice-coffee-list top__ice-coffee-list--image3">
+								<img class="image" src="./components/img/ice-coffee-img/ice-coffee3.png" alt="ice-coffee-image">
+							</div>
+						</div>
+						<div class="top__list-container">
+							<div class="top__ice-coffee-list height-100">
+								<img class="image" src="./components/img/ice-coffee-img/ice-coffee4.png" alt="ice-coffee-image">
+							</div>
+						</div>
+						<div class="top__list-container">
+							<div class="top__ice-coffee-list ">
+								<img class="image" src="./components/img/ice-coffee-img/ice-coffee5.png" alt="ice-coffee-image">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="top__coffee-menu" id="menu">
+			<div class="wrapper">
+				<h2 class="title title--margin-bottom title--center clr-tertiary">Coffee Menu</h2>
+				<div class="container top__coffee-container">
+					<div class="top__coffee-content">
+						<h3 class="img-title img-title--margin-block title--center clr-tertiary">Coffee</h3>
+						<ul class="top__coffee-img-list">
+							<li class="top__menu-image-list">
+								<div class="top__image-container">
+									<img class="image" src="./components/img/menu-img/espresso.png" alt="coffe-menu-image">
+								</div>
+							</li>
+							<li class="top__menu-image-list">
+								<div class="top__image-container">
+									<img class="image" src="./components/img/menu-img/lungo.png" alt="coffe-menu-image">
+								</div>
+							</li>
+							<li class="top__menu-image-list">
+								<div class="top__image-container">
+									<img class="image" src="./components/img/menu-img/americano.png" alt="coffe-menu-image">
+								</div>
+							</li>
+							<li class="top__menu-image-list">
+								<div class="top__image-container">
+									<img class="image" src="./components/img/menu-img/capuccino.png" alt="coffe-menu-image">
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="top__stick-container">
+						<div class="top__stick">
+						</div>
+					</div>
+					<div class="top__coffee-content">
+						<h3 class="img-title img-title--margin-block title--center clr-tertiary">Ice Coffee</h3>
+						<ul class="top__coffee-img-list">
+							<li class="top__menu-image-list">
+								<div class="top__image-container">
+									<img class="image" src="./components/img/menu-img/icecapuccino.png" alt="coffe-menu-image">
+								</div>
+							</li>
+							<li class="top__menu-image-list">
+								<div class="top__image-container">
+									<img class="image" src="./components/img/menu-img/icecoffee.png" alt="coffe-menu-image">
+								</div>
+							</li>
+							<li class="top__menu-image-list">
+								<div class="top__image-container">
+									<img class="image" src="./components/img/menu-img/icemachiato.png" alt="coffe-menu-image">
+								</div>
+							</li>
+							<li class="top__menu-image-list">
+								<div class="top__image-container">
+									<img class="image" src="./components/img/menu-img/bananacoffee.png" alt="coffe-menu-image">
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="top__reviews" id="reviews">
+			<div class="wrapper">
+				<div class="container">
+					<h2 class="title title--center clr-secondary">CUSTOMER REVIEWS</h2>
+					<div class="top__reviews-slider splide" role="group" aria-label="Reviews">
+						<div class="top__slider-container splide__track">
+							<ul class="top__slider-list splide__list">
+								<li class="top__reviews-card splide__slide">
+									<i class="font-25 clr-secondary fa-solid fa-quote-right"></i>
+									<p class="description clr-secondary">
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. A repellendus eius, nulla
+										impedit dolorem est delectus dolore odio nesciunt harum totam, dolor sequi dicta ut
+										modi
+										repudiandae adipisci aperiam. Incidunt?
+									</p>
+									<h3 class="font-25 clr-secondary">- Zyrus Gremio</h3>
+								</li>
+								<li class="top__reviews-card splide__slide">
+									<i class="font-25 clr-secondary fa-solid fa-quote-right"></i>
+									<p class="description clr-secondary">
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. A repellendus eius, nulla
+										impedit dolorem est delectus dolore odio nesciunt harum totam, dolor sequi dicta ut
+										modi
+										repudiandae adipisci aperiam. Incidunt?
+									</p>
+									<h4 class="font-25 clr-secondary">- John Silly Canoza</h4>
+								</li>
+								<li class="top__reviews-card splide__slide">
+									<i class="font-25 clr-secondary fa-solid fa-quote-right"></i>
+									<p class="description clr-secondary">
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. A repellendus eius, nulla
+										impedit dolorem est delectus dolore odio nesciunt harum totam, dolor sequi dicta ut
+										modi
+										repudiandae adipisci aperiam. Incidunt?
+									</p>
+									<h4 class="font-25 clr-secondary">- Kenken Quiboloy Carreon</h4>
+								</li>
+								<li class="top__reviews-card splide__slide">
+									<i class="font-25 clr-secondary fa-solid fa-quote-right"></i>
+									<p class="description clr-secondary">
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. A repellendus eius, nulla
+										impedit dolorem est delectus dolore odio nesciunt harum totam, dolor sequi dicta ut
+										modi
+										repudiandae adipisci aperiam. Incidunt?
+									</p>
+									<h4 class="font-25 clr-secondary">- Klay Conrad Barbie</h4>
+								</li>
+								<li class="top__reviews-card splide__slide">
+									<i class="font-25 clr-secondary fa-solid fa-quote-right"></i>
+									<p class="description clr-secondary">
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. A repellendus eius, nulla
+										impedit dolorem est delectus dolore odio nesciunt harum totam, dolor sequi dicta ut
+										modi
+										repudiandae adipisci aperiam. Incidunt?
+									</p>
+									<h4 class="font-25 clr-secondary">- Kristan Valdez</h4>
+								</li>
+								<li class="top__reviews-card splide__slide">
+									<i class="font-25 clr-secondary fa-solid fa-quote-right"></i>
+									<p class="description clr-secondary">
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit. A repellendus eius, nulla
+										impedit dolorem est delectus dolore odio nesciunt harum totam, dolor sequi dicta ut
+										modi
+										repudiandae adipisci aperiam. Incidunt?
+									</p>
+									<h4 class="font-25 clr-secondary">- Monc Magnetico</h4>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+		</section>
+
+		<section class="top__contact" id="contact">
+			<div class="wrapper">
+				<div class="container top__contact-container">
+					<div class="top__contact-img">
+						<img class="image" src="./components/img/contact-img/coffeebackground.png" alt="contact-image">
+					</div>
+					<div class="top__contact-content">
+						<h3 class="top__contact-title title clr-tertiary">Thank you!</h3>
+						<div class="top__contact-info">
+							<h3 class="font-25 clr-tertiary">PHONE NUMBER</h3>
+							<h4 class="clr-primary">09154193574</h4>
+						</div>
+						<div class="top__contact-info">
+							<h3 class="font-25 clr-tertiary">EMAIL ADDRESS</h3>
+							<h4 class="clr-primary">joshuaanicas7@gmail.com</h4>
+						</div>
+						<div class="top__contact-info">
+							<h3 class="font-25 clr-tertiary">LOCATION</h3>
+							<h4 class="clr-primary">Blk 25 Singkamas st. Tumana, Marikina City</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="container footer__footer-container">
+				<div class="footer__logo">
+					<img class="image" src="./components/img/icon/coffee-logo.png" alt="">
+				</div>
+				<ul class="footer__quick-links">
+					<li><a class="footer__list text" href="#">HOME</a></li>
+					<li><a class="footer__list text" href="#">PRIVACY POLICY</a></li>
+					<li><a class="footer__list text" href="#">CONTACT US</a></li>
+					<li><a class="footer__list text" href="#">STORE LOCATION</a></li>
+					<li><a class="footer__list text" href="#">FAQS</a></li>
+				</ul>
+			</div>
+			<p class="footer__desc">The most Instagrammable Coffee Shop in the Philippines. Serving good quality
+				concoctions
+				of
+				espresso-based
+				drinks and mouth-watering food.
+				Coffee Project is not just an ordinary café; besides our best-tasting coffee
+				and
+				beverages, we also serve a wide variety of appetizing food like cakes, pasta, rice meals, and
+				sandwiches.
+			</p>
+			<p class="footer__copy-right">Copyright © 2024 Coffee Project Powered</p>
+		</div>
+	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', function () {
+			var splide = new Splide('.splide', {
+				autoplay: true,
+				arrows: false,
+				type: 'loop',
+				perPage: 2,
+				breakpoints: {
+					767: {
+						perPage: 1,
+					}
+				}
+
+
+			});
+			var toggleButton = splide.root.querySelector('.my-toggle-button');
+			splide.mount();
+		});
+
+		const checkbox = document.querySelector("#checkbox");
+		const nav = document.querySelector("#nav-items");
+
+		// Sync initial state
+		if (checkbox.checked) {
+			nav.style.top = "0";
+			document.body.classList.add('overflow');
+		} else {
+			nav.style.top = "-800px";
+			document.body.classList.remove('overflow');
+		}
+
+		// Add listener for toggling
+		checkbox.addEventListener("change", () => {
+			console.log(checkbox.checked);
+			if (checkbox.checked) {
+				nav.style.top = "0";
+				document.body.classList.add('overflow');
+			} else {
+				document.body.classList.remove('overflow');
+				nav.style.top = "-800px";
+			}
+		});
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>

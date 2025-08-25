@@ -1,0 +1,15 @@
+@use '../settings/font-family' as ff;
+@use '../settings/color' as clr;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: clr.$secondary-color;
+  font-family: ff.$font-stack;
+}
+ 
+.overflow {
+  overflow: hidden;
+}

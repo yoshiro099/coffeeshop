@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Alice";
+  src: url("/style/Alice-Regular.ttf") format(".ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #cbc7b7;
+  font-family: "Alice", sans;
+}
+
+.overflow {
+  overflow: hidden;
+}/*# sourceMappingURL=global.css.map */

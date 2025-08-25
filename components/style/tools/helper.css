@@ -1,0 +1,31 @@
+.clr-primary {
+  color: #4a3931;
+}
+
+.clr-secondary {
+  color: #cbc7b7;
+}
+
+.clr-tertiary {
+  color: #2d1902;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.img-title {
+  font-size: 19px;
+}
+.img-title--margin-block {
+  margin-bottom: 50px;
+}
+
+.font-25 {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 20px;
+  text-align: justify;
+}/*# sourceMappingURL=helper.css.map */

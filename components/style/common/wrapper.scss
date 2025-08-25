@@ -1,0 +1,12 @@
+@use '../tools/media-queries' as mq;
+
+.wrapper {
+	padding-inline: 30px;
+	@include mq.sp {
+		padding-inline: 5%;
+	}
+	
+	&--100 {
+			height: 100%;
+	}
+}
